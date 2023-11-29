@@ -1,0 +1,147 @@
+/*Your CSS goes here. This is the only file you'll need to modify for this assignment.*/
+body {
+    margin: 0;
+}
+
+/* 2. Style the site-banner class. */
+.site-banner {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+/* 3. Set the width of the image inside site-banner. */
+.site-banner img {
+    width: 188px;
+}
+
+/* 4. Style the article class. */
+.article {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* 5. Style the story-header class. */
+.story-header {
+    font-family: "Franklin Light", sans-serif;
+}
+
+/* 6. Style the "Investigations" text. */
+.story-header h3 {
+    font-family: "Franklin Bold", sans-serif;
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+/* 7. Style the story headline. */
+.story-header h1 {
+    font-family: "Postoni", sans-serif;
+    font-size: 46px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+/* 8. Remove bolding from headline text. */
+.story-header h1 {
+    font-weight: normal;
+}
+
+/* 9. Style the story deck. */
+.deck {
+    height: 20px;
+}
+
+/* 10. Style the story byline. */
+.byline {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+/* 11. Style the timestamp for publication date. */
+.publish-date {
+    font-size: 14px;
+    margin-top: 0;
+    color: #666666;
+}
+
+/* 12. Style the story-body class. */
+.story-body {
+    font-family: "Georgia", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 700px;
+}
+
+/* 13. Style images inside the story. */
+.story-body img {
+    width: 100%;
+}
+
+/* 14. Style image captions. */
+.story-body img::caption {
+    color: #666666;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 18px;
+    font-family: "Franklin Light", sans-serif;
+}
+
+/* 15. Style the story-footer class. */
+.story-footer {
+    max-width: 700px;
+    border-top: 1px solid black;
+}
+
+/* 16. Style "More for you" text. */
+.story-footer .more-for-you {
+    font-family: "Franklin Bold", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* 17. Style headlines in story-footer. */
+.story-footer h2 {
+    font-size: 28px;
+}
+
+/* 18. Style timestamps in story-footer. */
+.story-footer .timestamp {
+    font-family: "Franklin Light", sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+/* Bonus Pt. 1: Style hyperlinks on hover. */
+a:hover {
+    color: #3366cc; /* Change to a different color */
+    text-decoration-color: #cc0000; /* Change to a different color */
+}
+
+/* Bonus Pt. 2: Mimic Washington Post link styles. */
+a:link, a:visited {
+    color: #0066cc; /* Unvisited and visited link color */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #dd4b39; /* Hovered link color */
+    text-decoration-color: #dd4b39;
+}
+
+/* Styling for byline links in the story body (simulated behavior). */
+.story-body a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.story-body a:hover {
+    text-decoration: underline;
+}
