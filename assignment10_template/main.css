@@ -1,0 +1,139 @@
+
+
+
+
+  
+
+
+body {
+  margin: 10px;
+  background-color:#FFFFFF;
+
+
+}
+
+nav {
+  border-top: 2px solid #FAB98D;
+  border-bottom: 1px solid #FAB98D;
+  padding: 20px;
+  text-align: center;
+
+  
+}
+
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav li {
+  display: inline-block;
+  height: 100%;
+  width: 10%;
+}
+
+
+.logo {
+  width: 330px;
+}
+
+.sitemotto {
+  color: #de2f23;
+  font-family: Basier, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+
+header {
+    font-family: Basier, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+
+  
+  
+}
+
+.byline {
+  font-weight: regular;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+
+.tdpad {
+  padding: 50px;
+}
+
+article >p {
+  font-family: 'Baskerville', 'Baskerville Old Face', Garamond, serif;
+  font-size: 75px;
+  text-align: center;
+
+}
+
+.story_image {
+  width: 100%;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
+}
+
+
+
+.story_image {
+
+  width: 150px;
+  height: 200px;
+  background-size: 50px;
+}
+
+.story_image { 
+   width: 100px;
+   height:200px;
+   background-size: 50px;
+
+}
+.imageparking{
+  width: 500px;
+  height:400px;
+  display: block;
+  margin: 0 auto 40px;
+
+}
+.flourish-embed {
+  margin: 0 auto 40px; 
+  display: block; 
+}
+
